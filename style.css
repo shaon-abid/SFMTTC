@@ -1,0 +1,96 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.main-header{
+	background: #FFE000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #799F0C, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #799F0C, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    padding:30px;
+    text-align:center;
+	}
+  
+
+.title{
+        width:100%;
+        text-align:center;
+
+        }    
+.title h1{
+            color:#065d3e;
+            font-family:"Times New Roman", Times, serif;
+            font-size:38px;
+            }
+        .title h3{
+            color:#000;
+            font-family:"Times New Roman", Times, serif;
+            font-size:34px;
+            }
+.navbar{
+    background-color: #065d3e;
+    padding:15px;
+}
+
+.nav-item{
+    font-size:25px;
+	font-family:"Times New Roman", Times, serif
+}
+
+a{
+    color: #fff;
+}
+
+a:hover{
+    color: rgb(238, 119, 23);
+}
+.br{
+    border-right: 1px solid #fff;
+	
+}
+
+@media (max-width: 768px) {
+
+    .br {
+      border-right: none;
+    }
+ 
+  }
+
+  .banner img{
+    width:100%;
+}
+
+.bg{
+    background-color: #e7e5d9;
+}
+
+img{
+   opacity: 0.9;
+
+}
+
+img:hover{
+    opacity: 1;
+ }
+
+
+.footer{
+    background-color:#292929;
+	padding:20px 20px;
+	color:#d5d5d5;
+	text-align:center;
+}
+p{
+text-align: justify;
+  text-justify: inter-word;
+}
+
+.contact {
+    background: #FFE000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #799F0C, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #799F0C, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+
+.logo img {
+    width:100%;
+}
